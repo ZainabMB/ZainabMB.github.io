@@ -3,24 +3,29 @@
 ## User Needs
 
 ### User stories
-TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
-    Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).
+user stories capture the needs and wants of my user base
+* find the longest or shortest cycling routes
+* search routes by name 
+* searching routes that intersect with selected route
+* view all in  map
+* most difficult routes
+* find routes that take the longest or shortest time
+* view particular route types 
+
 
 ### Actors
-TODO: List and describe the actors/users for this product.
+* cyclist
 
 ### Use Cases
-TODO: Describe each use case (at least one per team member).
-    Give each use case a unique ID, e.g. UC1, UC2, ...
-    Summarise these using the use-case template below.
 
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
+
+| UC1| UC1: Find the cycling routes by distance | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
+| **Description** | As a cyclist i want to find cycling routes by distance. |
+| **Actors** | Cyclist|
+| **Assumptions** | none
+| **Steps** | <ol> <li> Choose to view table of bicycle routes</li><li> select filter list</li><li> choose to filter by distance </li><li> choose from shortest to longest or longest to shortest route</li><li>display list accordingly</li></ol>
+| **Variations** | none
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
