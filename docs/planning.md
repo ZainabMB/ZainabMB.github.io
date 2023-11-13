@@ -8,9 +8,9 @@ Getting unexpected tickets is very frustrating for drivers. Journey links is an 
 
 ### Business benefits
 Journey links will benefit: 
-<li>*The driver: by showing them they need to be cautious and helping them avoid tickets</li>
-<li>*All Road users: by reducing accidents as the drivers are more cautious </li>
-<li>*Law enforcement: by making their jobs easier </li>
+<li>The driver: by showing them they need to be cautious and helping them avoid tickets</li>
+<li>All Road users: by reducing accidents as the drivers are more cautious </li>
+<li>Law enforcement: by making their jobs easier </li>
 
 ### Options Considered
 Google maps offers something similar and could be an alternative, but it only gives notifications rather than showing the cameras on the app like journey links does. 
