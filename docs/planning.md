@@ -20,8 +20,9 @@ It could aid drivers to break rules when they know they are not being watched
 
 ## Project Scope
 Actor: The actor in this app is the driver
-Data source: B
-
-
+HTML and Javascript 
+Data source: Bristol open data
+Licensing: Copyright © 2023 Open Data Bristol
+Platform: mobile use
 
 ![picasso](https://github.com/ZainabMB/ZainabMB.github.io/assets/148768903/5baf9e60-de89-4646-a830-fd2ee5b241f4)
