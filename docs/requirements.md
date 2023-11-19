@@ -26,7 +26,7 @@ user stories capture the needs and wants of my user base
 | **Assumptions** | Browser supports geo-location |
 | **Steps** | <ol> <li> Choose to view table of journey links</li><li> select filter list</li><li> choose to filter by name </li><li> choose from ID link number</li><li>display list accordingly</li></ol>
 | **Variations** | The browser does not support geo-location: use bristol city centre as default location |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
+| **Non-functional** | It should display the journey link ID according to the user's selection |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 | UC2| UC2: Finding journey links closest to the driver's location | 
@@ -36,7 +36,7 @@ user stories capture the needs and wants of my user base
 | **Assumptions** | Browser supports geo-location |
 | **Steps** | <ol> <li> Choose to view table of journey links</li><li> select filter list</li><li> choose to filter closest to location </li><li> choose from closest to location</li><li>display list accordingly</li></ol>
 | **Variations** | The browser does not support geo-location: use bristol city centre as default location |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
+| **Non-functional** | It should display up to 10 of the nearest cameras on one page |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 | UC3| UC3: Selecting journey links and finding closest cameras for the selected link | 
@@ -46,7 +46,7 @@ user stories capture the needs and wants of my user base
 | **Assumptions** | Browser supports geo-location |
 | **Steps** | <ol> <li> Choose to view table of closest cameras for the selected link </li><li> select filter list</li><li> choose to filter by closest cameras for the selected link </li><li> choose from closest cameras for the selected link</li><li>display list accordingly</li></ol>
 | **Variations** | The browser does not support geo-location: use bristol city centre as default location |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
+| **Non-functional** | It should display all of the cameras closest to the selected journey link |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 | UC4| UC4: Finding every camera on the driver's journey | 
@@ -56,7 +56,7 @@ user stories capture the needs and wants of my user base
 | **Assumptions** | Browser supports geo-location |
 | **Steps** | <ol> <li> Choose to view table of every camera</li><li> select filter list</li><li> choose to filter by  </li><li> choose from </li><li>display list accordingly</li></ol>
 | **Variations** | The browser does not support geo-location: use bristol city centre as default location |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
+| **Non-functional** | It should display all the cameras on the driver's selected journey |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 | UC5| UC5: Filtering journey links by KPI Priority | 
@@ -66,7 +66,7 @@ user stories capture the needs and wants of my user base
 | **Assumptions** | Browser supports geo-location |
 | **Steps** | <ol> <li> Choose to view table of journey links</li><li> select filter list</li><li> choose to filter by KPI Priority </li><li> choose from KPI Priority</li><li>display list accordingly</li></ol>
 | **Variations** | The browser does not support geo-location: use bristol city centre as default location |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
+| **Non-functional** | It should display all the journey links that have KPI Priority|
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 | UC6| UC6: Filtering journey links by journey start direction  | 
@@ -76,7 +76,7 @@ user stories capture the needs and wants of my user base
 | **Assumptions** | Browser supports geo-location |
 | **Steps** | <ol> <li> Choose to view table of journey links</li><li> select filter list</li><li> choose to filter by start direction</li><li> choose from start direction type</li><li>display list accordingly</li></ol>
 | **Variations** | The browser does not support geo-location: use bristol city centre as default location |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
+| **Non-functional** | It should display all the jorney links according to the chosen journey start direction type  |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 
