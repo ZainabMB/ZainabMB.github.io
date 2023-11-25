@@ -83,7 +83,7 @@ user stories capture the needs and wants of my user base
 
 TODO: Your Use-Case diagram should include all use-cases.
 
-![Insert your Use-Case Diagram Here](images/use-case.png)
+![UseCase Diagram0](https://github.com/ZainabMB/ZainabMB.github.io/assets/148768903/a5ed772a-521d-49fd-b99e-9f93eb281bff)
 
 ## Software Requirements Specification
 ### Functional requirements
@@ -98,4 +98,4 @@ TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/IS
 Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
 
 Indicate which UC the requirement comes from.
-![UseCase Diagram0](https://github.com/ZainabMB/ZainabMB.github.io/assets/148768903/a5ed772a-521d-49fd-b99e-9f93eb281bff)
+
