@@ -23,30 +23,30 @@ user stories capture the needs and wants of my user base
 | -------------------------------------- | ------------------- |
 | **Description** | As a driver i want to find journey links by name. |
 | **Actors** | Drivers|
-| **Assumptions** | Browser supports geo-location |
-| **Steps** | <ol> <li> Choose to view table of journey links</li><li> select filter list</li><li> choose to filter by name </li><li> choose from ID link number</li><li>display list accordingly</li></ol>
-| **Variations** | The browser does not support geo-location: use bristol city centre as default location |
-| **Non-functional** | It should display the journey link ID according to the user's selection |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Assumptions** | No assumptions |
+| **Steps** | <ol> <li> Click on the search bar</li><li>Type in the name of the journey link</li><li>Select journey link</li></ol> |
+| **Variations** |<ol><li>Journey link does not exist</li><li>Display "journey link not found"<li/></ol> |
+| **Non-functional** |<ol><li>NFR1: The search bar or icon must be visible at all times (usability)</li><li>NFR2: List of journey links should be narrowed down with every letter typed in (Performance efficiency)<li/><li>NFR3: List should always be in alphabetic order(Usability)</li></ol> |
+| **Issues** |No Issues |
 
 | UC2| UC2: Finding journey links closest to the driver's location | 
 | -------------------------------------- | ------------------- |
 | **Description** | As a driver i want to find journey links closest to my location. |
 | **Actors** | Drivers|
 | **Assumptions** | Browser supports geo-location |
-| **Steps** | <ol> <li> Choose to view table of journey links</li><li> select filter list</li><li> choose to filter closest to location </li><li> choose from closest to location</li><li>display list accordingly</li></ol>
+| **Steps** | <ol> <li> Choose to view journey links in map</li><li>Choose to find journey links nearest to the user's location</li><li> Request permission to use location </li><li>Display Journey link nearest to user's location</li></ol>
 | **Variations** | The browser does not support geo-location: use bristol city centre as default location |
-| **Non-functional** | It should display up to 10 of the nearest cameras on one page |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Non-functional** |<ol><li> NFR1: Locaion is only accessed if user grants permisiion (security)</li><li>NFR1: show the 5 nearest jouney links to the user's location or the default location on the map(Usability)</li></ol> |
+| **Issues** |No Issues |
 
 | UC3| UC3: Selecting journey links and finding closest cameras for the selected link | 
 | -------------------------------------- | ------------------- |
 | **Description** | As a driver i want to select journey links and find the closest cameras for the selected link. |
 | **Actors** | Drivers|
 | **Assumptions** | Browser supports geo-location |
-| **Steps** | <ol> <li> Choose to view table of closest cameras for the selected link </li><li> select filter list</li><li> choose to filter by closest cameras for the selected link </li><li> choose from closest cameras for the selected link</li><li>display list accordingly</li></ol>
-| **Variations** | The browser does not support geo-location: use bristol city centre as default location |
-| **Non-functional** | It should display all of the cameras closest to the selected journey link |
+| **Steps** | <ol> <li> Choose to view Journey Links in a table</li><li> select a journey link</li><li>choose option to show other journey links close to the selected one </li><li>Display nearest Journey links to the selected journey link</li></ol>
+| **Variations** |No variations|
+| **Non-functional** | NFR1: |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 | UC4| UC4: Finding every camera on the driver's journey | 
@@ -54,10 +54,10 @@ user stories capture the needs and wants of my user base
 | **Description** | As a driver i want to find every camera on my journey. |
 | **Actors** | Drivers|
 | **Assumptions** | Browser supports geo-location |
-| **Steps** | <ol> <li> Choose to view table of every camera</li><li> select filter list</li><li> choose to filter by  </li><li> choose from </li><li>display list accordingly</li></ol>
-| **Variations** | The browser does not support geo-location: use bristol city centre as default location |
-| **Non-functional** | It should display all the cameras on the driver's selected journey |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Steps** | <ol> <li>View journey links on map</li><li>Request to access user's location and use as start point</li><li>Request user's destination</li><li>Display the shortest route to destination</li><li>Display all the ANPR on the journey</li></ol>
+| **Variations** | The browser does not support geo-location: manually choose a start point|
+| **Non-functional** |<ol><li>NFR1:|
+| **Issues** | Can't display or create journies yet|
 
 | UC5| UC5: Filtering journey links by KPI Priority | 
 | -------------------------------------- | ------------------- |
