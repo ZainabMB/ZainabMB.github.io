@@ -46,7 +46,7 @@ user stories capture the needs and wants of my user base
 | **Assumptions** | Browser supports geo-location |
 | **Steps** | <ol> <li> Choose to view Journey Links in a table</li><li> select a journey link</li><li>choose option to show other journey links close to the selected one </li><li>Display nearest Journey links to the selected journey link</li></ol>
 | **Variations** |No variations|
-| **Non-functional** | <ol><li> NFR1: List should be displayed in alphabetical order at all times</li> NFR2: display only the three closest journey links</li></ol>|
+| **Non-functional** | <ol><li> NFR1: List should be displayed in alphabetical order at all times(Efficiency)</li> NFR2: display only the three closest journey links (Usability)</li></ol>|
 | **Issues** | No Issues |
 
 | UC4| UC4: Finding every camera on the driver's journey | 
@@ -55,8 +55,8 @@ user stories capture the needs and wants of my user base
 | **Actors** | Drivers|
 | **Assumptions** | Browser supports geo-location |
 | **Steps** | <ol> <li>View journey links on map</li><li>Request to access user's location and use as start point</li><li>Request user's destination</li><li>Display the shortest route to destination</li><li>Display all the ANPR on the journey</li></ol>
-| **Variations** | The browser does not support geo-location: manually choose a start point|
-| **Non-functional** |<ol><li>NFR1:Automatically choose the shortest route to the destination</li> NFR2: |
+| **Variations** | The browser does not support geo-location: choose Bristol city centre as start point|
+| **Non-functional** |<ol><li>NFR1: Automatically choose the shortest route to the destination (Usability)</li> NFR2: NFR2: Display ANPR points visibly on the map (Usablity)</li></ol> |
 | **Issues** | Can't display or create journies yet|
 
 | UC5| UC5: Filtering journey links by KPI Priority | 
