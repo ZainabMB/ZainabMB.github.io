@@ -56,7 +56,7 @@ user stories capture the needs and wants of my user base
 | **Assumptions** | Browser supports geo-location |
 | **Steps** | <ol> <li>View journey links on map</li><li>Request to access user's location and use as start point</li><li>Request user's destination</li><li>Display the shortest route to destination</li><li>Display all the ANPR on the journey</li></ol>
 | **Variations** | The browser does not support geo-location: choose Bristol city centre as start point|
-| **Non-functional** |<ol><li>NFR1: Automatically choose the shortest route to the destination (Usability)</li> NFR2: NFR2: Display ANPR points visibly on the map (Usablity)</li></ol> |
+| **Non-functional** |<ol><li>NFR1: Automatically choose the shortest route to the destination (Usability)</li><li>NFR2: NFR2: Display ANPR points visibly on the map (Usablity)</li></ol> |
 | **Issues** | Can't display or create journies yet|
 
 | UC5| UC5: Filtering journey links by KPI Priority | 
@@ -65,19 +65,19 @@ user stories capture the needs and wants of my user base
 | **Actors** | Drivers|
 | **Assumptions** | Browser supports geo-location |
 | **Steps** | <ol> <li> Choose to view table of journey links</li><li> select filter list</li><li> choose to filter by KPI Priority </li><li> choose from KPI Priority</li><li>display list accordingly</li></ol>
-| **Variations** | The browser does not support geo-location: use bristol city centre as default location |
-| **Non-functional** | It should display all the journey links that have KPI Priority|
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Variations** | <ol><li> Choose to view map of journey links</li><li> Turn on KPI priority</li><li> Display KPI priority on map</li></ol> |
+| **Non-functional** |<ol><li> NFR1: KPI priority only has two choices 'yes' or 'no'(Efficiency)</li><li>NFR2: Once the button is turned on, the two KPI priority types should be easily distinguishable on the map using different colours</li></ol> |
+| **Issues** | No Issues |
 
 | UC6| UC6: Filtering journey links by journey start direction  | 
 | -------------------------------------- | ------------------- |
 | **Description** | As a driver i want to find journey links by journey start direction. |
 | **Actors** | Drivers|
-| **Assumptions** | Browser supports geo-location |
+| **Assumptions** | No Assumptions |
 | **Steps** | <ol> <li> Choose to view table of journey links</li><li> select filter list</li><li> choose to filter by start direction</li><li> choose from start direction type</li><li>display list accordingly</li></ol>
-| **Variations** | The browser does not support geo-location: use bristol city centre as default location |
-| **Non-functional** | It should display all the jorney links according to the chosen journey start direction type  |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Variations** | No Variations|
+| **Non-functional** |<ol><li> NFR1: List should be displayed in alphabetical order at all times(Efficiency) </li> </ol>  |
+| **Issues** | No issues  |
 
 
 
