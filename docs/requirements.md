@@ -25,8 +25,8 @@ user stories capture the needs and wants of my user base
 | **Actors** | Drivers|
 | **Assumptions** | No assumptions |
 | **Steps** | <ol> <li> Click on the search bar</li><li>Type in the name of the journey link</li><li>Select journey link</li></ol> |
-| **Variations** |<ol><li>Journey link does not exist</li><li>Display "journey link not found"<li/></ol> |
-| **Non-functional** |<ol><li>NFR1: The search bar or icon must be visible at all times (usability)</li><li>NFR2: List of journey links should be narrowed down with every letter typed in (Performance efficiency)<li/><li>NFR3: List should always be in alphabetic order(Usability)</li></ol> |
+| **Variations** |<ol><li>Journey link does not exist</li><li>Display "journey link not found"</li></ol> |
+| **Non-functional** |<ol><li>NFR1: The search bar or icon must be visible at all times (usability)</li><li>NFR2: List of journey links should be narrowed down with every letter typed in (Performance efficiency)</li><li>NFR3: List should always be in alphabetic order(Usability)</li></ol> |
 | **Issues** |No Issues |
 
 | UC2| UC2: Finding journey links closest to the driver's location | 
