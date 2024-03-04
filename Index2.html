@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Community Toilets</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style2.css">
+    <!--font link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--icon link-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script>
+      function outputTable(json){
+        let element = document.getElementById("results")
+        let features = json.features;
+        for(i=0; i<features.length; i++){
+            tr = document.createElement('tr');
+            let a = features[i].attributes;
+            let td = document.createElement('td');
+            td.innerHTML = a.NAME; 
+            tr.appendChild(td);
+            td = document.createElement('td');
+            td.innerHTML = a.TYPE;
+            tr.appendChild(td);
+            element.appendChild(tr);
+        
+        }
+      }
+      function query() {
+          let url = "https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/25/query?where=1%3D1&outFields=TOILET_NAME,POSTCODE,FEMALE,MALE,FAMILYTOILET&outSR=4326&f=json"
+          fetch(url,{ method: "GET", headers: { Accept: "application/json"}})
+          .then(res=>res.json())
+          .then(console.log);
+        }
+    </script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <header>
+        <span class="heading"><a href="index2.html">COMMUNITY TOILETS</a></span>
+        <form class="search" action="search.html">
+          <input name="searchterm" placeholder="Search.." type="text" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </header>
+      <nav>
+        <button onclick="location.href='map.html'" class="w3-button w3-block w3-blue w3-margin-top">Find on Map</button>
+        <button onclick="location.href='type.html'" class="w3-button w3-block w3-blue w3-margin-top">Find by Gender</button>
+      </nav>
+      <main>
+        <!--iframe src="https://arcg.is/185ruT" width="800" height="600" frameborder="0"></iframe!-->
+        <table>
+            <thead><th>NAME</th><th>POSTCODE</th><th>FEMALE</th><th>MALE</th><th>FAMILY-TOILET</th></thead>
+            <tbody id="results"></tbody>
+        </table>
+      </main>
+    </div>
+    <script>query()</script>
+  </body>
+</html>
