@@ -23,7 +23,7 @@ Users require a convenient way to find nearby community toilets.
 | **Actors** | Users|
 | **Assumptions** | No assumptions |
 | **Steps** | <ol> <li> Click on the search bar</li><li>Type in the name of the community toilet</li><li>Select the desired community toilet from the search results</li></ol> |
-| **Variations** |<ol><li>The community toilet does not exist</li><li>Display "Community toilet not found"</li></ol> |
+| **Variations** |<ol><li>If the community toilet does not exist,</li><li>display "Community toilet not found."</li></ol> |
 | **Non-functional** |<ol><li>NFR1: The search bar or icon must be visible at all times (usability)</li><li>NFR2: List of community toilets should be narrowed down with every letter typed in (Performance efficiency)</li><li>NFR3: List should always be in alphabetical order(Usability)</li></ol> |
 | **Issues** |No Issues |
 
