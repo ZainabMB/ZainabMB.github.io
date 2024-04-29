@@ -1,26 +1,22 @@
 # Project Proposal
-Journey Links: Finding ANPR cameras for drivers
-
+Community toilets: Finding community toilets for users
 ## Business Case
 
 ### Problem statement
-Getting unexpected tickets is very frustrating for drivers. Journey links is an app created to help drivers find 
- ANPR cameras on their journeys to remind them to be cautious because they are being watched.
+Trying to find the nearest community toilets may sometimes be difficult to find when people are not somewhere that they are very familiar of. Community toilets is an app designed for users to find community toilets when in necessary conditions.
 
 ### Business benefits
-Journey links will benefit: 
-<li>The driver: by showing them they need to be cautious and helping them avoid tickets</li>
-<li>All Road users: by reducing accidents as the drivers are more cautious </li>
-<li>Law enforcement: by making their jobs easier </li>
+Community toilets will benefit: 
+<li>The user: by helping them find community toilets in necessary conditions</li>
+<li>Community Improvement: By accessing to community toilets contributes to overall community well-being and development.</li>
+<li>Environmental Benefits: By encouraging the use of designated toilets, it helps reduce pollution and keeps public spaces cleaner.</li>
 
 ### Options Considered
-Google maps offers something similar and could be an alternative, but it only gives notifications rather than showing the cameras on the app like journey links does. 
-
+Toilet Finder app offers users to find public toilets. Unlike Toilet Finder app, Community Toilets gives access to users to find community toilets.
 ### Expected Risks
-It could aid drivers to break rules when they know they are not being watched 
-
+It may not always be useful since it only shows community toilets which are only located near housing areas.
 ## Project Scope
-<li>Actor: The actor in this app is the driver</li>
+<li>Actor: The actor in this app is the user</li>
 <li>developed with: HTML and Javascript</li> 
 <li>Platform: mobile use</li>
 <li>Data source: Bristol open data</li>
