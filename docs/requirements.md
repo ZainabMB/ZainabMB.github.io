@@ -62,7 +62,7 @@ Users require a convenient way to find nearby community toilets.
 | **Description** | As a user, i want to filter community toilets by specific criteria. |
 | **Actors** | Users |
 | **Assumptions** | Browser supports geo-location |
-| **Steps** | <ol> <li> Choose to view table of community toilets</li><li> Select the filter option</li><li> Choose to filter by the desired criteria(e.g., opening hours,male,urinals,female,unisex,accessibility, automatic opening door,baby change,family toilet). </li><li> Select from the available options</li><li>display the filtered list accordingly</li></ol>
+| **Steps** | <ol> <li> Choose to view table of community toilets</li><li> Select the filter option</li><li> Choose to filter by the desired criteria(e.g., baby change,family toilet). </li><li> Select from the available options</li><li>display the filtered list accordingly</li></ol>
 | **Variations** | <ol><li> Choose to view map of community toilets</li><li> Turn on the desired criteria chosen</li><li> Display the desired criteria on the map</li></ol> |
 | **Non-functional** |<ol><li> NFR1: Desired criteria only has two choices 'yes' or 'no'(Efficiency)</li><li>NFR2: Once the button is turned on, the two desired criteria types should be easily distinguishable on the map using different colours</li></ol> |
 | **Issues** | No Issues |
