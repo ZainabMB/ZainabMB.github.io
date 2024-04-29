@@ -88,7 +88,8 @@ Users require a convenient way to find nearby community toilets.
 | **Non-functional** |<ol><li> NFR1: The buttons should be easily read and distinguished(Usability) </li> <li> NFR2: Desired criteria only has two choices 'yes' or 'no'(Efficiency)</li></ol>  |
 | **Issues** | No issues|
 
-(https://github.com/ZainabMB/ZainabMB.github.io/assets/148768903/047af72d-2d26-485a-9abe-7853bf8bd24a)
+![Mindmap 2](https://github.com/ZainabMB/ZainabMB.github.io/assets/148769002/7c6c41c5-2357-4a5d-8ce2-6619432697c2)
+
 
 ## Software Requirements Specification
 ### Functional requirements
