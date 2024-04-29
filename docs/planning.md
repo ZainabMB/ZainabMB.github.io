@@ -23,4 +23,5 @@ It may not always be useful since it only shows community toilets which are only
 <li>Licensing: Copyright © 2023 Open Data Bristol</li>
 
 
-![picasso](https://github.com/ZainabMB/ZainabMB.github.io/assets/148768903/5baf9e60-de89-4646-a830-fd2ee5b241f4)
+
+![finaldiagram](https://github.com/ZainabMB/ZainabMB.github.io/assets/148769002/5e5057c5-e413-454e-8ad3-7dcee41448a1)
