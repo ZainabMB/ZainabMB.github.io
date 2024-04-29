@@ -45,7 +45,7 @@ Users require a convenient way to find nearby community toilets.
 | **Assumptions** | Browser supports geo-location |
 | **Steps** | <ol> <li> Choose to view community toilets on map</li><li>Display all the community toilets in Bristol.</li></ol>
 | **Variations** |No variations |
-| **Non-functional** | <ol><li> NFR1: Each marker should be visible(Usability)</li> NFR2: Display the name of the community toilet after clicking the marker (Usability)</li></ol>|
+| **Non-functional** | <ol><li> NFR1: Each marker should be visible(Usability)</li><li> NFR2: Display the name of the community toilet after clicking the marker (Usability)</li></ol>|
 | **Issues** | No Issues |
 
 | UC4| UC4: Finding community toilets with changing places | 
@@ -75,7 +75,7 @@ Users require a convenient way to find nearby community toilets.
 | **Assumptions** | No Assumptions |
 | **Steps** | <ol> <li> Choose to view a table of community toilets</li><li> select the filter family toilets</li><li>Click on YES</li><li>Display community toilets with family toilets</li></ol>
 | **Variations** |<ol><li>Click on NO</li><li>Display community toilets without family toilets</li></ol>|
-| **Non-functional** |<ol><li> NFR1: The buttons should be easily read and distinguished(Usability) </li> </ol>  |
+| **Non-functional** |<ol><li> NFR1: The buttons should be easily read and distinguished(Usability) </li> <li> NFR2: Desired criteria only has two choices 'yes' or 'no'(Efficiency)</li></ol>  |
 | **Issues** | No issues|
 
 | UC7| UC7: Filtering community toilets by Baby change| 
@@ -85,7 +85,7 @@ Users require a convenient way to find nearby community toilets.
 | **Assumptions** | No Assumptions |
 | **Steps** | <ol> <li> Choose to view a table of community toilets</li><li> select the filter Baby change</li><li>Click on YES</li><li>Display community toilets with Baby change</li></ol>
 | **Variations** |<ol><li>Click on NO</li><li>Display community toilets without Baby change</li></ol>|
-| **Non-functional** |<ol><li> NFR1: The buttons should be easily read and distinguished(Usability) </li> </ol>  |
+| **Non-functional** |<ol><li> NFR1: The buttons should be easily read and distinguished(Usability) </li> <li> NFR2: Desired criteria only has two choices 'yes' or 'no'(Efficiency)</li></ol>  |
 | **Issues** | No issues|
 
 (https://github.com/ZainabMB/ZainabMB.github.io/assets/148768903/047af72d-2d26-485a-9abe-7853bf8bd24a)
