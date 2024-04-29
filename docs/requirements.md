@@ -1,32 +1,30 @@
 # Requirements
 
 ## User Needs
-
+Users require a convenient way to find nearby community toilets.
 ### User stories
-user stories capture the needs and wants of my user base
-* find the longest or shortest cycling routes
-* search routes by name 
-* searching routes that intersect with selected route
-* view all in  map
-* most difficult routes
-* find routes that take the longest or shortest time
-* view particular route types 
+- As a user, I want to search for community toilets by name.
+- As a user, I want to find community toilets closest to my location.
+- As a user, I want to select a community toilet and find other nearby toilets.
+- As a user, I want to find all toilets along my journey.
+- As a user, I want to filter community toilets based on specific criteria.
+- As a user, I want to find toilets based on the direction of my journey.
 
 
 ### Actors
-* driver
+* user
 
 ### Use Cases
 
 
-| UC1| UC1: Finding journey links by name | 
+| UC1| UC1: Finding Community Toilets by Name| 
 | -------------------------------------- | ------------------- |
-| **Description** | As a driver i want to find journey links by name. |
-| **Actors** | Drivers|
+| **Description** | As a driver, I want to find community toilets by name.|
+| **Actors** | Users|
 | **Assumptions** | No assumptions |
-| **Steps** | <ol> <li> Click on the search bar</li><li>Type in the name of the journey link</li><li>Select journey link</li></ol> |
-| **Variations** |<ol><li>Journey link does not exist</li><li>Display "journey link not found"</li></ol> |
-| **Non-functional** |<ol><li>NFR1: The search bar or icon must be visible at all times (usability)</li><li>NFR2: List of journey links should be narrowed down with every letter typed in (Performance efficiency)</li><li>NFR3: List should always be in alphabetic order(Usability)</li></ol> |
+| **Steps** | <ol> <li> Click on the search bar</li><li>Type in the name of the community toilet</li><li>Select the desired community toilet from the search results</li></ol> |
+| **Variations** |<ol><li>The community toilet does not exist</li><li>Display "Community toilet not found"</li></ol> |
+| **Non-functional** |<ol><li>NFR1: The search bar or icon must be visible at all times (usability)</li><li>NFR2: List of community toilets should be narrowed down with every letter typed in (Performance efficiency)</li><li>NFR3: List should always be in alphabetical order(Usability)</li></ol> |
 | **Issues** |No Issues |
 
 | UC2| UC2: Finding journey links closest to the driver's location | 
