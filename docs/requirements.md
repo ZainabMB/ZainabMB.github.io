@@ -47,41 +47,37 @@ Users require a convenient way to find nearby community toilets.
 | **Non-functional** | <ol><li> NFR1: The list should be displayed in alphabetical order at all times(Efficiency)</li> NFR2: Display only the three closest community toilets (Usability)</li></ol>|
 | **Issues** | No Issues |
 
-| UC4| UC4: Finding every camera on the driver's journey | 
+| UC4| UC4: Finding community toilets along user's walking journey | 
 | -------------------------------------- | ------------------- |
-| **Description** | As a driver i want to find every camera on my journey. |
-| **Actors** | Drivers|
+| **Description** | As a user i want to find all community toilets along my journey. |
+| **Actors** | Users |
 | **Assumptions** | Browser supports geo-location |
-| **Steps** | <ol> <li>View journey links on map</li><li>Request to access user's location and use as start point</li><li>Request user's destination</li><li>Display the shortest route to destination</li><li>Display all the ANPR on the journey</li></ol>
-| **Variations** | The browser does not support geo-location: choose Bristol city centre as start point|
-| **Non-functional** |<ol><li>NFR1: Automatically choose the shortest route to the destination (Usability)</li><li>NFR2: NFR2: Display ANPR points visibly on the map (Usablity)</li></ol> |
+| **Steps** | <ol> <li>View community toilets on map</li><li>Request access to the user's location and use it as the start point</li><li>Request the user's destination</li><li>Display the shortest route to destination</li><li>Display all community toilets along the journey</li></ol>
+| **Variations** | If the browser does not support geo-location, choose Bristol city centre as the start point|
+| **Non-functional** |<ol><li>NFR1: Automatically choose the shortest route to the destination (Usability)</li><li>NFR2: NFR2: Display community toilets visibly on the map (Usablity)</li></ol> |
 | **Issues** | Can't display or create journies yet|
 
-| UC5| UC5: Filtering journey links by KPI Priority | 
+| UC5| UC5: Filtering community toilets by Criteria | 
 | -------------------------------------- | ------------------- |
-| **Description** | As a driver i want to filter journey links by KPI Priority . |
-| **Actors** | Drivers|
+| **Description** | As a user, i want to filter community toilets by specific criteria. |
+| **Actors** | Users |
 | **Assumptions** | Browser supports geo-location |
-| **Steps** | <ol> <li> Choose to view table of journey links</li><li> select filter list</li><li> choose to filter by KPI Priority </li><li> choose from KPI Priority</li><li>display list accordingly</li></ol>
-| **Variations** | <ol><li> Choose to view map of journey links</li><li> Turn on KPI priority</li><li> Display KPI priority on map</li></ol> |
-| **Non-functional** |<ol><li> NFR1: KPI priority only has two choices 'yes' or 'no'(Efficiency)</li><li>NFR2: Once the button is turned on, the two KPI priority types should be easily distinguishable on the map using different colours</li></ol> |
+| **Steps** | <ol> <li> Choose to view table of community toilets</li><li> Select the filter option</li><li> Choose to filter by the desired criteria(e.g., opening hours,male,urinals,female,unisex,accessibility, automatic opening door,baby change,family toilet). </li><li> Select from the available options</li><li>display the filtered list accordingly</li></ol>
+| **Variations** | <ol><li> Choose to view map of community toilets</li><li> Turn on the desired criteria chosen</li><li> Display the desired criteria on the map</li></ol> |
+| **Non-functional** |<ol><li> NFR1: Desired criteria only has two choices 'yes' or 'no'(Efficiency)</li><li>NFR2: Once the button is turned on, the two desired criteria types should be easily distinguishable on the map using different colours</li></ol> |
 | **Issues** | No Issues |
 
-| UC6| UC6: Filtering journey links by journey start direction  | 
+| UC6| UC6: Filtering community toilets by start direction | 
 | -------------------------------------- | ------------------- |
-| **Description** | As a driver i want to find journey links by journey start direction. |
-| **Actors** | Drivers|
+| **Description** | As a user i want to find community toilets by the start direction of my walking journey. |
+| **Actors** | Users |
 | **Assumptions** | No Assumptions |
-| **Steps** | <ol> <li> Choose to view table of journey links</li><li> select filter list</li><li> choose to filter by start direction</li><li> choose from start direction type</li><li>display list accordingly</li></ol>
+| **Steps** | <ol> <li> Choose to view a table of community toilets</li><li> select the filter option</li><li> Choose to filter by start direction</li><li> Select from the available start direction types</li><li>Display the filtered list accordingly</li></ol>
 | **Variations** | No Variations|
-| **Non-functional** |<ol><li> NFR1: List should be displayed in alphabetical order at all times(Efficiency) </li> </ol>  |
+| **Non-functional** |<ol><li> NFR1: The list should be displayed in alphabetical order at all times(Efficiency) </li> </ol>  |
 | **Issues** | No issues  |
 
-
-
-TODO: Your Use-Case diagram should include all use-cases.
-
-![JOURNEY LINKS](https://github.com/ZainabMB/ZainabMB.github.io/assets/148768903/047af72d-2d26-485a-9abe-7853bf8bd24a)
+(https://github.com/ZainabMB/ZainabMB.github.io/assets/148768903/047af72d-2d26-485a-9abe-7853bf8bd24a)
 
 ## Software Requirements Specification
 ### Functional requirements
