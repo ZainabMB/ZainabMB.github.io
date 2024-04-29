@@ -17,34 +17,34 @@ Users require a convenient way to find nearby community toilets.
 ### Use Cases
 
 
-| UC1| UC1: Finding Community Toilets by Name| 
+| UC1| UC1: Finding community toilets by Name| 
 | -------------------------------------- | ------------------- |
 | **Description** | As a driver, I want to find community toilets by name.|
 | **Actors** | Users|
-| **Assumptions** | No assumptions |
+| **Assumptions** | Browser supports geo-location |
 | **Steps** | <ol> <li> Click on the search bar</li><li>Type in the name of the community toilet</li><li>Select the desired community toilet from the search results</li></ol> |
 | **Variations** |<ol><li>If the community toilet does not exist,</li><li>display "Community toilet not found."</li></ol> |
 | **Non-functional** |<ol><li>NFR1: The search bar or icon must be visible at all times (usability)</li><li>NFR2: List of community toilets should be narrowed down with every letter typed in (Performance efficiency)</li><li>NFR3: List should always be in alphabetical order(Usability)</li></ol> |
 | **Issues** |No Issues |
 
-| UC2| UC2: Finding journey links closest to the driver's location | 
+| UC2| UC2: Finding community toilets closest to the user's location | 
 | -------------------------------------- | ------------------- |
-| **Description** | As a driver i want to find journey links closest to my location. |
-| **Actors** | Drivers|
+| **Description** | As a user i want to find community toilets closest to my location. |
+| **Actors** | Users|
 | **Assumptions** | Browser supports geo-location |
-| **Steps** | <ol> <li> Choose to view journey links in map</li><li>Choose to find journey links nearest to the user's location</li><li> Request permission to use location </li><li>Display Journey link nearest to user's location</li></ol>
-| **Variations** | The browser does not support geo-location: use bristol city centre as default location |
-| **Non-functional** |<ol><li> NFR1: Locaion is only accessed if user grants permisiion (security)</li><li>NFR1: show the 5 nearest jouney links to the user's location or the default location on the map(Usability)</li></ol> |
+| **Steps** | <ol> <li> Choose to view community toilets in map</li><li>Select the option to find community toilets nearest to my location</li><li> Request permission to use location </li><li>Display community toilets nearest to user's location</li></ol>
+| **Variations** | If the browser does not support geo-location: use Bristol city centre as the default location |
+| **Non-functional** |<ol><li> NFR1: Location is only accessed if the user grants permission (security)</li><li>NFR2: Show the 5 nearest community toilets to the user's location or the default location on the map(Usability)</li></ol> |
 | **Issues** |No Issues |
 
-| UC3| UC3: Selecting journey links and finding closest cameras for the selected link | 
+| UC3| UC3: Selecting community toilets and finding nearby toilets  | 
 | -------------------------------------- | ------------------- |
-| **Description** | As a driver i want to select journey links and find the closest cameras for the selected link. |
-| **Actors** | Drivers|
+| **Description** | As a user, I want to select a community toilet and find other nearby toilets. |
+| **Actors** | Users|
 | **Assumptions** | Browser supports geo-location |
-| **Steps** | <ol> <li> Choose to view Journey Links in a table</li><li> select a journey link</li><li>choose option to show other journey links close to the selected one </li><li>Display nearest Journey links to the selected journey link</li></ol>
-| **Variations** |No variations|
-| **Non-functional** | <ol><li> NFR1: List should be displayed in alphabetical order at all times(Efficiency)</li> NFR2: display only the three closest journey links (Usability)</li></ol>|
+| **Steps** | <ol> <li> Choose to view community toilets in a table</li><li> Select a community toilet</li><li>Choose the option to show other community toilets close to the selected one.</li><li>Display the nearest community toilets to the selected community toilet.</li></ol>
+| **Variations** |Browser supports geo-location |
+| **Non-functional** | <ol><li> NFR1: The list should be displayed in alphabetical order at all times(Efficiency)</li> NFR2: Display only the three closest community toilets (Usability)</li></ol>|
 | **Issues** | No Issues |
 
 | UC4| UC4: Finding every camera on the driver's journey | 
