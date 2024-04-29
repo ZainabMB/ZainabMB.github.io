@@ -5,10 +5,11 @@ Users require a convenient way to find nearby community toilets.
 ### User stories
 - As a user, I want to search for community toilets by name.
 - As a user, I want to find community toilets closest to my location.
-- As a user, I want to select a community toilet and find other nearby toilets.
-- As a user, I want to find all toilets along my journey.
-- As a user, I want to filter community toilets based on specific criteria.
-- As a user, I want to find toilets based on the direction of my journey.
+- As a user, I want to view all community toilets on my map.
+- As a user, I want to find community toilets with changing places.
+- As a user, I want to filter community toilets based on the wards.
+- As a user, I want to find community toilets that have family toilets.
+- As a user, I want to find community toilets with a baby change. 
 
 
 ### Actors
@@ -19,13 +20,13 @@ Users require a convenient way to find nearby community toilets.
 
 | UC1| UC1: Finding community toilets by Name| 
 | -------------------------------------- | ------------------- |
-| **Description** | As a driver, I want to find community toilets by name.|
+| **Description** | As a user, I want to search for community toilets by name.|
 | **Actors** | Users|
-| **Assumptions** | Browser supports geo-location |
+| **Assumptions** | No assumptions |
 | **Steps** | <ol> <li> Click on the search bar</li><li>Type in the name of the community toilet</li><li>Select the desired community toilet from the search results</li></ol> |
 | **Variations** |<ol><li>If the community toilet does not exist,</li><li>display "Community toilet not found."</li></ol> |
 | **Non-functional** |<ol><li>NFR1: The search bar or icon must be visible at all times (usability)</li><li>NFR2: List of community toilets should be narrowed down with every letter typed in (Performance efficiency)</li><li>NFR3: List should always be in alphabetical order(Usability)</li></ol> |
-| **Issues** |No Issues |
+| **Issues** |Cannot display in alphabetical order |
 
 | UC2| UC2: Finding community toilets closest to the user's location | 
 | -------------------------------------- | ------------------- |
@@ -37,45 +38,55 @@ Users require a convenient way to find nearby community toilets.
 | **Non-functional** |<ol><li> NFR1: Location is only accessed if the user grants permission (security)</li><li>NFR2: Show the 5 nearest community toilets to the user's location or the default location on the map(Usability)</li></ol> |
 | **Issues** |No Issues |
 
-| UC3| UC3: Selecting community toilets and finding nearby toilets  | 
+| UC3| UC3: Viewing all community toilets on the map | 
 | -------------------------------------- | ------------------- |
-| **Description** | As a user, I want to select a community toilet and find other nearby toilets. |
+| **Description** | As a user, I want to view all community toilets on my map. |
 | **Actors** | Users|
 | **Assumptions** | Browser supports geo-location |
-| **Steps** | <ol> <li> Choose to view community toilets in a table</li><li> Select a community toilet</li><li>Choose the option to show other community toilets close to the selected one.</li><li>Display the nearest community toilets to the selected community toilet.</li></ol>
-| **Variations** |Browser supports geo-location |
-| **Non-functional** | <ol><li> NFR1: The list should be displayed in alphabetical order at all times(Efficiency)</li> NFR2: Display only the three closest community toilets (Usability)</li></ol>|
+| **Steps** | <ol> <li> Choose to view community toilets on map</li><li>Display all the community toilets in Bristol.</li></ol>
+| **Variations** |No variations |
+| **Non-functional** | <ol><li> NFR1: Each marker should be visible(Usability)</li> NFR2: Display the name of the community toilet after clicking the marker (Usability)</li></ol>|
 | **Issues** | No Issues |
 
-| UC4| UC4: Finding community toilets along user's walking journey | 
+| UC4| UC4: Finding community toilets with changing places | 
 | -------------------------------------- | ------------------- |
-| **Description** | As a user i want to find all community toilets along my journey. |
+| **Description** | As a user, I want to find community toilets with changing places. |
 | **Actors** | Users |
-| **Assumptions** | Browser supports geo-location |
-| **Steps** | <ol> <li>View community toilets on map</li><li>Request access to the user's location and use it as the start point</li><li>Request the user's destination</li><li>Display the shortest route to destination</li><li>Display all community toilets along the journey</li></ol>
-| **Variations** | If the browser does not support geo-location, choose Bristol city centre as the start point|
-| **Non-functional** |<ol><li>NFR1: Automatically choose the shortest route to the destination (Usability)</li><li>NFR2: NFR2: Display community toilets visibly on the map (Usablity)</li></ol> |
-| **Issues** | Can't display or create journies yet|
+| **Assumptions** | No assumptions |
+| **Steps** | <ol> <li>View community toilets on table</li><li>click on changing place</li><li>click on YES</li><li>Display all the community toilets with changing places</li></ol>
+| **Variations** |<ol><li>click on NO</li><li>Display all the community toilets without changing places</li></ol>|
+| **Non-functional** |<ol><li>NFR1: The buttons should be visible and distinguishable (Usability)</li>><li> NFR2: Desired criteria only has two choices 'yes' or 'no'(Efficiency)</li></ol> |
+| **Issues** | No Issues|
 
-| UC5| UC5: Filtering community toilets by Criteria | 
+| UC5| UC5: Filtering community toilets by wards | 
 | -------------------------------------- | ------------------- |
-| **Description** | As a user, i want to filter community toilets by specific criteria. |
+| **Description** | As a user, I want to filter community toilets based on the wards. |
 | **Actors** | Users |
 | **Assumptions** | Browser supports geo-location |
-| **Steps** | <ol> <li> Choose to view table of community toilets</li><li> Select the filter option</li><li> Choose to filter by the desired criteria(e.g., baby change,family toilet). </li><li> Select from the available options</li><li>display the filtered list accordingly</li></ol>
+| **Steps** | <ol> <li> Choose to view table of community toilets</li><li> Select the filter wards</li><li> Choose the ward to filter from</li><li>display the filtered list accordingly</li></ol>
 | **Variations** | <ol><li> Choose to view map of community toilets</li><li> Turn on the desired criteria chosen</li><li> Display the desired criteria on the map</li></ol> |
-| **Non-functional** |<ol><li> NFR1: Desired criteria only has two choices 'yes' or 'no'(Efficiency)</li><li>NFR2: Once the button is turned on, the two desired criteria types should be easily distinguishable on the map using different colours</li></ol> |
-| **Issues** | No Issues |
+| **Non-functional** |<ol><li> NFR1: Buttons for different wards should be distinguishable (usability)</li><li>NFR2: All toilets from the specific ward will be displayed(Efficiency)</li></ol> |
+| **Issues** | There are too many wards to display all individually so only the ones with a certain number of toilets were used. |
 
-| UC6| UC6: Filtering community toilets by start direction | 
+| UC6| UC6: Filtering community toilets by Family Toilets| 
 | -------------------------------------- | ------------------- |
-| **Description** | As a user i want to find community toilets by the start direction of my walking journey. |
+| **Description** | As a user, I want to find community toilets that have family toilets. |
 | **Actors** | Users |
 | **Assumptions** | No Assumptions |
-| **Steps** | <ol> <li> Choose to view a table of community toilets</li><li> select the filter option</li><li> Choose to filter by start direction</li><li> Select from the available start direction types</li><li>Display the filtered list accordingly</li></ol>
-| **Variations** | No Variations|
-| **Non-functional** |<ol><li> NFR1: The list should be displayed in alphabetical order at all times(Efficiency) </li> </ol>  |
-| **Issues** | No issues  |
+| **Steps** | <ol> <li> Choose to view a table of community toilets</li><li> select the filter family toilets</li><li>Click on YES</li><li>Display community toilets with family toilets</li></ol>
+| **Variations** |<ol><li>Click on NO</li><li>Display community toilets without family toilets</li></ol>|
+| **Non-functional** |<ol><li> NFR1: The buttons should be easily read and distinguished(Usability) </li> </ol>  |
+| **Issues** | No issues|
+
+| UC7| UC7: Filtering community toilets by Baby change| 
+| -------------------------------------- | ------------------- |
+| **Description** | As a user, I want to find community toilets with a baby change.  |
+| **Actors** | Users |
+| **Assumptions** | No Assumptions |
+| **Steps** | <ol> <li> Choose to view a table of community toilets</li><li> select the filter Baby change</li><li>Click on YES</li><li>Display community toilets with Baby change</li></ol>
+| **Variations** |<ol><li>Click on NO</li><li>Display community toilets without Baby change</li></ol>|
+| **Non-functional** |<ol><li> NFR1: The buttons should be easily read and distinguished(Usability) </li> </ol>  |
+| **Issues** | No issues|
 
 (https://github.com/ZainabMB/ZainabMB.github.io/assets/148768903/047af72d-2d26-485a-9abe-7853bf8bd24a)
 
