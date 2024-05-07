@@ -16,7 +16,14 @@ Test Runs
 | TNF1.8       | UAT       | The data should be up-to-date; less than one year old | Confirm last update on community toilets dataset. |   |
 Create a requirements traceability matrix to validate the completeness of the product.
 
-| Use-Case ID | Requirement ID | Test Case | Status |
-| ----------- | -------------- | --------- | ------ |
-
+| Use-Case ID | Requirement ID | Software Module| Test Case  | Status |
+| ----------- | -------------- | -------------- |  --------- | ------ |
+| UC1         | FR1.1          |                |  TF1.1     |        |
+| UC1         | FR1.3          |                |  TF1.3     |        |
+| UC1         | FR1.4          |                |  TF1.4     |        |
+| UC1         | NFR1.1         |                |  TNF1.1    |        |
+| UC1         | NFR1.5         |                |  TNF1.5a   |        |
+| UC2         | NFR1.5         |                |   TNF1.5b  |        |
+| UC1         | NFR1.6         |                |  TNF1.6    |        |
+| UC1         | NFR1.8         |                |  TNF1.8    |        |
 TODO: Add rows for each test, current status is eg. pass/fail
