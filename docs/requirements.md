@@ -104,14 +104,8 @@ FR1.4 The system should add markers on the map for each communal toilet.
 ### Non-Functional Requirements
 Nonfunctional Requirements:
 
-NFR1.1 If the user's location is unavailable, the system should fall back to a specified location (reliability).
-NFR1.2 Basic security measures are necessary to safeguard user data (Security).
-NFR1.3 The source code should be available on GitHub to ensure openness and collaborative development (maintenance).
-NFR1.4 The software should be designed for mobile phone displays (portability).
-NFR1.5: The app should respond to user inputs within 5 seconds (Performance Efficiency).
-NFR1.6 The software should work with Chrome and Safari browsers (Compatibility).
-NFR1.7 The map markers should not take up more than 5% of the map area (Usability).
-NFR1.8 Toilet location data should be current, having been collected within the last year (functional suitability).
+<ol><li>NFR1: The search bar or icon must be visible at all times (usability)</li><li>NFR2: List of community toilets should be narrowed down with every letter typed in (Performance efficiency)</li><li>NFR3: List should always be in alphabetical order(Usability)</li></ol> 
+<ol><li> NFR1: Location is only accessed if the user grants permission (security)</li><li>NFR2: Show the 5 nearest community toilets to the user's location or the default location on the map(Usability)</li></ol>  <ol><li> NFR1: Each marker should be visible(Usability)</li><li> NFR2: Display the name of the community toilet after clicking the marker (Usability)</li></ol> <ol><li>NFR1: The buttons should be visible and distinguishable (Usability)</li>><li> NFR2: Desired criteria only has two choices 'yes' or 'no'(Efficiency)</li></ol> <ol><li> NFR1: Buttons for different wards should be distinguishable (usability)</li><li>NFR2: All toilets from the specific ward will be displayed(Efficiency)</li></ol> <ol><li> NFR1: The buttons should be easily read and distinguished(Usability) </li> <li> NFR2: Desired criteria only has two choices 'yes' or 'no'(Efficiency)</li></ol> <ol><li> NFR1: The buttons should be easily read and distinguished(Usability) </li> <li> NFR2: Desired criteria only has two choices 'yes' or 'no'(Efficiency)</li></ol> 
 Indicate which UC the requirement comes from.
 
 
