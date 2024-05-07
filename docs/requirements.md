@@ -93,16 +93,25 @@ Users require a convenient way to find nearby community toilets.
 
 ## Software Requirements Specification
 ### Functional requirements
-TODO: create a list of functional requirements. 
-    e.g. "The system shall ..."
-    Give each functional requirement a unique ID. e.g. FR1, FR2, ...
-    Indicate which UC the requirement comes from.
+Functional requirements:
+
+FR1.1 The system should request permission to access the user's location via geolocation services.
+FR1.2 The system should get toilet locations from the community toilet database.
+FR1.3 The system should show the map centred on the user's location.
+FR1.4 The system should add markers on the map for each communal toilet.
 
 
 ### Non-Functional Requirements
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
+Nonfunctional Requirements:
 
+NFR1.1 If the user's location is unavailable, the system should fall back to a specified location (reliability).
+NFR1.2 Basic security measures are necessary to safeguard user data (Security).
+NFR1.3 The source code should be available on GitHub to ensure openness and collaborative development (maintenance).
+NFR1.4 The software should be designed for mobile phone displays (portability).
+NFR1.5: The app should respond to user inputs within 5 seconds (Performance Efficiency).
+NFR1.6 The software should work with Chrome and Safari browsers (Compatibility).
+NFR1.7 The map markers should not take up more than 5% of the map area (Usability).
+NFR1.8 Toilet location data should be current, having been collected within the last year (functional suitability).
 Indicate which UC the requirement comes from.
 
 
