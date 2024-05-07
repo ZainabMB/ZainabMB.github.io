@@ -95,12 +95,8 @@ Users require a convenient way to find nearby community toilets.
 ### Functional requirements
 Functional requirements:
 
-FR1.1 The system should request permission to access the user's location via geolocation services.
-FR1.2 The system should get toilet locations from the community toilet database.
-FR1.3 The system should show the map centred on the user's location.
-FR1.4 The system should add markers on the map for each communal toilet.
-
-
+<ol><li>FR1.1 The system should obtain permission to access the user's location via geolocation services.</li><li>FR1.2 The system should retrieve toilet locations from the community toilet database.</li><li>FR1.3 The system should display the map centered on the user's location.</li></ol> <ol><li>FR1.4 The system should place markers on the map for each community toilet location.</li><li>
+  
 ### Non-Functional Requirements
 Nonfunctional Requirements:
 
