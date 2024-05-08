@@ -1,0 +1,117 @@
+<html>
+<head>  
+     <!--icon link-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <script src="script.js"> // mapping functions </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >COMMUNITY TOILETS</title>
+  
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: grey;
+            background-image: url("Pooplace.jpg");
+           
+        }
+
+        header {
+            background-color: rgb(6, 33, 49);
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+           
+            
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #1f5e7d;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #1f5e7d;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .search{
+        align-items: center;}
+        button{
+            color:#770000;
+            size: 70px;
+            font-size: larger;
+            cursor: pointer;
+            border-radius: 3px;
+
+        }
+        button:hover{opacity: 0.7;}
+        h2{
+            font-family: monospace;
+            font-size: xx-large;
+            margin-top: 235px;
+            color: #770000;
+            text-shadow:black;
+        }
+        form{font-size: x-large;}
+        
+        
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1 a href="homePage.html">COMMUNITY TOILETS</h1>
+        
+    </header>
+    <nav>
+        <a href="homePage.html">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+    </nav>
+    <section>
+          
+        <h2>Find Bristol's Community Toilets...</h2>  
+        <form class="search" action="search.html">
+            <input name="searchterm" placeholder="Search.." type="text" />
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+            <button onclick="getLocation('map.html')">Find on Map</button>
+            <button onclick="location.href='index2.html'">View Table</button>
+        
+        
+
+    </section>
+    <footer>
+        <p>&copy; 2024 Community Toilets. All rights reserved.</p>
+    </footer>
+</body>
+</html>

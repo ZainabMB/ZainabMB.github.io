@@ -1,0 +1,94 @@
+.grid-container { 
+    display: grid;
+    grid-template-areas:
+      'ph ph ph ph ph ph'
+      'ln cn cn cn cn cn'
+      'ln cn cn cn cn cn'
+  }
+  
+  header { grid-area: ph; font-size: x-large; border-width: 2px; }
+  button{border-radius: 3px; margin-right: 2px; margin-left: 2px; margin-top: 5px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+  
+  nav { grid-area: ln }
+  
+  main { grid-area: cn; padding-top: 20;}
+  
+ .search { float: right; }
+
+
+
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(244, 241, 245);
+ 
+}
+header {
+  background-color: rgb(10, 140, 215);
+  color:rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: left;
+  text-decoration: solid;
+  -webkit-text-stroke: rgb(72, 58, 43);
+  font-size: xx-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url("Pooplace.jpg");
+  background-position: 30px;
+  border-radius: 2px;
+}
+
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  background-color: rgb(248, 242, 237);
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #1f5e7d;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.search{
+align-items: center;}
+button{
+  color:#452305;
+  size: 70px;
+  font-size: larger;
+  cursor: pointer;
+  border-radius: 3px;
+
+}
+button:hover{opacity: 0.7;}
+h2{
+  font-family: monospace;
+  font-size: xx-large;
+  margin-top: 235px;
+  color: #770000;
+  text-shadow:black;
+}
+form{font-size: large;}

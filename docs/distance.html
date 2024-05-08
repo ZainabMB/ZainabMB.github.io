@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <title>Community Toilets</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style2.css">
+    <!--font link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--icon link-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="script.js"> // mapping functions </script>
+    <script language="javascript" src="https://www.nearby.org.uk/tests/geotools2.js"></script>
+    <script>
+      function outputTable(json) {
+        let element = document.getElementById("results");
+        let features = json.features;
+        for (i=0; i<features.length; i++) {
+          tr = document.createElement('tr');
+          let a = features[i].attributes;
+          let g = features[i].geometry;
+          let td = document.createElement('td');
+          td.innerHTML = a.TOILET_NAME;
+          tr.appendChild(td);
+
+          td = document.createElement('td');
+          td.innerHTML = a.ADDRESS;
+          tr.appendChild(td);
+          element.appendChild(tr);
+
+          td = document.createElement('td');
+          let d = Math.round(Math.sqrt((g.x - osgb.eastings) ** 2 
+                                     + (g.y - osgb.northings)** 2));
+          td.innerHTML = `${d} meters`  ;
+          tr.appendChild(td);
+          element.appendChild(tr);
+        }
+      }
+      function query(eastings,northings) {
+          let url = `https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/25/query?where=1%3D1&text=&objectIds=&time=&timeRelation=esriTimeRelationOverlaps&geometry=${eastings}%2C${northings}&geometryType=esriGeometryPoint&inSR=&spatialRel=esriSpatialRelIntersects&distance=1&units=esriSRUnit_Kilometer&relationParam=&outFields=*&returnGeometry=true&returnTrueCurves=false&maxAllowableOffset=&geometryPrecision=&outSR=&havingClause=&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&historicMoment=&returnDistinctValues=false&resultOffset=&resultRecordCount=&returnExtentOnly=false&sqlFormat=none&datumTransformation=&parameterValues=&rangeValues=&quantizationParameters=&featureEncoding=esriDefault&f=pjson`;
+          fetch(url,{ method: "GET", headers: { 'Accept': "application/json"}})
+          .then (response => response.json())
+        .then(outputTable);
+        }
+    </script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <header>
+        <span class="heading"><a href="homePage.html">COMMUNITY TOILETS</a></span>
+        <form class="search" action="search.html">
+          <input name="searchterm" placeholder="Search.." type="text" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </header>
+      <nav class="w3-container w3-margin">
+        <button onclick="getLocation('map.html')" class="w3-button w3-block w3-blue w3-margin-top">Find on Map</button>
+        <button onclick="location.href='type.html'" class="w3-button w3-block w3-blue w3-margin-top">View on table</button>
+      </nav>
+      <main>
+        <!--iframe src="https://arcg.is/185ruT" width="800" height="600" frameborder="0"></iframe!-->
+        <table class= "w3-table w3-bordered">
+            <thead><th>NAME</th><th>ADDRESS</th><th>DISTANCE</th>
+            </thead>
+            <tbody id="results"></tbody>
+        </table>
+      
+  
+    <script>   // get query string parameters lat, lon
+        var urlParams = new URLSearchParams(location.search);
+        var lat = urlParams.get('lat');
+        var lon = urlParams.get('lon');
+
+        var wgs84 = new GT_WGS84();
+        wgs84.setDegrees(lat, lon);
+        var osgb = wgs84.getOSGB();
+        query(osgb.eastings,osgb.northings);
+        </script>
+         </main>  </div>
+  </body>
+</html>

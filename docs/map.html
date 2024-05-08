@@ -1,0 +1,81 @@
+
+<html>
+  <head>
+    <title>Community Toilets</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js"></script>
+    <style>
+        #map { position: absolute; top: 3; height: 70%; width: 60%; margin-top: 50px; }
+    </style>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style2.css">
+    <!--font link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--icon link-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.13.1/OpenLayers.js"></script>
+<script src="script.js" defer></script>
+    <script>
+    const MY_TOKEN = "pk.eyJ1IjoiemFpbmFibWIzMiIsImEiOiJjbHQyc3EzaTQxYTZ2MmxucnFzOHhleGxuIn0.iWS7D3Qv8Zuvyo7-hAV3-A";
+    function addMarkers(json){
+        let features = json.features;
+        for (i=0; i<features.length; i++) {
+            let a = features[i].attributes;
+            let g = features[i].geometry;
+            //create marker and add to map 
+            let marker = new mapboxgl.Marker().setLngLat([g.x, g.y]).addTo(map);
+            //popup 
+            let popup = new mapboxgl.Popup({ offset: 25 }).setText(a.TOILET_NAME);
+            marker.setPopup(popup);
+
+        }}
+
+
+    
+    function query(x) {
+          let y = encodeURIComponent(x);
+          let url = `https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/25/query?where=1%3D1&outFields=TOILET_NAME,WARD&outSR=4326&f=json`;
+          fetch(url,{ method: "GET", headers: { Accept: "application/json"}})
+          .then (response => response.json())
+          .then(addMarkers);
+        }
+    </script>
+   
+  </head>
+  <body>
+    <div class="grid-container">
+      <header>
+        <span class="heading"><a href="homePage.html">COMMUNITY TOILETS</a></span>
+        <form class="search" action="search.html">
+          <input name="searchterm" placeholder="Search.." type="text" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </header>
+      <nav class="w3-container w3-margin">
+        <button onclick="getLocation('map.html')"class="w3-button w3-block w3-blue w3-margin-top">Find on Map</button>
+        <button onclick="location.href='type.html'" class="w3-button w3-block w3-blue w3-margin-top">View on table</button>
+        <button onclick="getLocation('distance.html')" class="w3-button w3-block w3-teal w3-margin-top">Find nearest toilet</button>
+      </nav>
+      <main >
+        
+        <div id="map"> </div> </main>
+    <script>
+        // get query string parameters lat, lon
+          var urlParams = new URLSearchParams(location.search);
+          var lat = urlParams.get('lat');
+          var lon = urlParams.get('lon');
+
+          mapboxgl.accessToken = MY_TOKEN;
+          var map = new mapboxgl.Map({
+            container: 'map', // container ID
+            center: [-2.587910, 51.454514], // longitude, latitude
+            zoom: 14 // zoom level
+          });
+
+         query();
+
+        </script> 
+   
+  </body>
+</html>
