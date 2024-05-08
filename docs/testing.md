@@ -17,7 +17,7 @@ Test Runs
 | TNF1.4b      | UAT       | The app should respond to the user within 5 seconds | User clicks "Find by Type". Table appears within 5 seconds. | pass  |
 | TNF1.5       | UAT       | The app should work on Chrome and Safari browsers | Perform all tests on Chrome / Safari. |  pass  |
 | TNF3.2      | UAT       |  Display the name of the community toilet after clicking the marker  |  pass |
-Create a requirements traceability matrix to validate the completeness of the product.
+
 
 | Use-Case ID | Requirement ID | Software Module| Test Case  | Status |
 | ----------- | -------------- | -------------- |  --------- | ------ |
@@ -32,4 +32,4 @@ Create a requirements traceability matrix to validate the completeness of the pr
 | UC1         | NFR1.4b         |   index2.html    |   TNF1.4b  |    pass    |
 | UC1         | NFR1.5         |    ALL          |  TNF1.5   |     pass   |
 | UC3         | NFR3.2        |    map.html     |  TNF3.2   |  pass      |
-TODO: Add rows for each test, current status is eg. pass/fail
+
