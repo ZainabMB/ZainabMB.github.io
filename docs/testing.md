@@ -26,8 +26,10 @@ Create a requirements traceability matrix to validate the completeness of the pr
 | UC1         | FR1.1          |   map.html     |  TF1.1     |    pass    |
 | UC1         | FR1.2          |  index2.html   |  TF1.3     |      pass  |
 | UC1         | FR1.3         |     map.html       |  TF1.4  |      pass  |
-| UC1         | FR1.4         |  distance.html |  TF1.4     |   pass     |
-| UC1         | NFR1.1         |                |  TNF1.1    |        |
+| UC1         | FR1.4         |  distance.html |  TF1.4     |   pass  |
+| UC1         | FR2.1       |     type.html      |  TF1.4     |  pass   |
+| UC1         | FR3.1   | Baby.html changing.html family.html      |  TF1.4     |  pass      |
+| UC1         | NFR3.1         |    distance            |  TNF1.1    |        |
 | UC1         | NFR1.5         |                |  TNF1.5a   |        |
 | UC2         | NFR1.5         |                |   TNF1.5b  |        |
 | UC1         | NFR1.6         |                |  TNF1.6    |        |
