@@ -1,5 +1,5 @@
 # Project Proposal
-Community toilets: Finding community toilets for users when in necessary conditions.
+Community toilets: Finding community toilets for users 
 ## Business Case
 
 ### Problem statement
