@@ -3,7 +3,7 @@
 ## Test Plan
 TODO: Describe any manual and automated (unit) tests. Uniquely identify each test case. Include prerequisites and test data.
 
-###Test Runs
+### Test Runs
 | Test case ID | Test type | Description | Scenario | Status |
 |--------------|-----------|-------------|----------|--------|
 | TF1.1        | UAT       | The system should get user location from navigator.geolocation | User clicks "Find on Map".Confirmation box appears, requesting permission. | Pass  |
@@ -18,7 +18,7 @@ TODO: Describe any manual and automated (unit) tests. Uniquely identify each tes
 | TNF1.5       | UAT       | The app should work on Chrome and Safari browsers | Perform all tests on Chrome / Safari. |  pass  |
 | TNF3.2      | UAT       |  Display the name of the community toilet after clicking the marker |  The names of each community toilet should be attached |    pass |
 
-###Requirements Traceability Matrix
+### Requirements Traceability Matrix
 | Use-Case ID | Requirement ID | Software Module| Test Case  | Status |
 | ----------- | -------------- | -------------- |  --------- | ------ |
 | UC1         | FR1.1          |   map.html     |  TF1.1     |    pass    |
