@@ -1,6 +1,6 @@
 # JOURNEY LINKS
 
-Journey links shows drivers all ANPR cameras in bristol to make them more catious, and avoid getting tickets.
+Community toilets shows users all community toilets in bristol to 
 
 1. [Planning](docs/planning.md)
 2. [Requirements](docs/requirements.md)
