@@ -6,8 +6,7 @@ TODO: Describe any manual and automated (unit) tests. Uniquely identify each tes
 Test Runs
 | Test case ID | Test type | Description | Scenario | Status |
 |--------------|-----------|-------------|----------|--------|
-| TF1.1        | UAT       | The system should get user location from navigator.geolocation | User clicks "Find on Map".
-Confirmation box appears, requesting permission. | Pass  |
+| TF1.1        | UAT       | The system should get user location from navigator.geolocation | User clicks "Find on Map".Confirmation box appears, requesting permission. | Pass  |
 | TF1.2       | UAT       | The system must query the database for Community toilets locations from Open Data Bristol  | User clicks "view map on table". All community toilets must display. | pass  |
 | TF1.3      | UAT       | The system must add markers for each Community Toilet | User clicks "Find on Map". User grants permission. Map shows markers for each community toilet. |  pass |
 | TF1.4      | UAT       | The system should find nearest toilets to user | User clicks "Find on Map" then "find nearest toilets". User grants permission. Table shows nearest toilets. |  pass |
