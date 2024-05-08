@@ -15,7 +15,7 @@ Users require a convenient way to find nearby community toilets.
 ### Actors
 *Users
 ### Functional Requirements 
-<li>FR1.1: The system should get user location from navigator.geolocation</li><li>FR1.2: The system must query the database for Community toilets locations from Open Data Bristol </li><li>FR1.3:The system must add markers for each Community Toilet</li><li>FR2.1: The sytem must query the database for wards with community toilets</li><li>FR3.1: The system must query the database of community toilets with changing places, baby change, and family toilets</li>
+<li>FR1.1: The system should get user location from navigator.geolocation</li><li>FR1.2: The system must query the database for Community toilets locations from Open Data Bristol </li><li>FR1.3:The system must add markers for each Community Toilet</li><li>FR1.4: The system should find nearest toilets to user</li><li>FR2.1: The sytem must query the database for wards with community toilets</li><li>FR3.1: The system must query the database of community toilets with changing places, baby change, and family toilets</li>
 
 ### Use Cases
 
@@ -27,8 +27,8 @@ Users require a convenient way to find nearby community toilets.
 | **Assumptions** | No assumptions |
 | **Steps** | <ol> <li> Click on the search bar</li><li>Type in the name of the community toilet</li><li>Select the desired community toilet from the search results</li></ol> |
 | **Variations** |<ol><li>If the community toilet does not exist,</li><li>display "Community toilet not found."</li></ol> |
-| **Non-functional** |<ol><li>NFR1: The search bar or icon must be visible at all times (usability)</li><li>NFR2: List of community toilets should be narrowed down with every letter typed in (Performance efficiency)</li><li>NFR3: List should always be in alphabetical order(Usability)</li></ol> |
-| **Issues** |Cannot display in alphabetical order |
+| **Non-functional** |<ol><li>NFR1: The search bar or icon must be visible at all times (usability)</li><li>NFR2: List of community toilets could be narrowed down with every letter typed in (Performance efficiency)</li><li>NFR3: List could always be in alphabetical order(Usability)</li><li>NFR4:The app should respond to the user within 5 seconds(Efficiency)</li><li>NFR5: The app should work on Chrome and Safari browsers</li></ol> |
+| **Issues** |Entire name has to be entered to get result. Cannot display in alphabetical order |
 
 | UC2| UC2: Finding community toilets closest to the user's location | 
 | -------------------------------------- | ------------------- |
@@ -37,7 +37,7 @@ Users require a convenient way to find nearby community toilets.
 | **Assumptions** | Browser supports geo-location |
 | **Steps** | <ol> <li> Choose to view community toilets in map</li><li>Select the option to find community toilets nearest to my location</li><li> Request permission to use location </li><li>Display community toilets nearest to user's location</li></ol>
 | **Variations** | If the browser does not support geo-location: use Bristol city centre as the default location |
-| **Non-functional** |<ol><li> NFR1: Location is only accessed if the user grants permission (security)</li><li>NFR2: Show the 5 nearest community toilets to the user's location or the default location on the map(Usability)</li></ol> |
+| **Non-functional** |<ol><li> NFR1: Location is only accessed if the user grants permission (security)</li></ol> |
 | **Issues** |No Issues |
 
 | UC3| UC3: Viewing all community toilets on the map | 
