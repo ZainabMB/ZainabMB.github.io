@@ -1,4 +1,4 @@
-# JOURNEY LINKS
+# Community Toilets
 
 Community toilets shows users all community toilets in bristol when in necessary conditions.
 
