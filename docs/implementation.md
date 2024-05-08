@@ -15,7 +15,6 @@ The community toilets app aims to provide a platform for users to find nearby co
 
 ### File Roles
 -Baby.html: This file contains information or features related to baby facilities in the community toilets app.
-
 -type.html: This file contains information or features related to the type of toilets available.
 -style2.css: This CSS file provides styling for the HTML files in the /docs folder, including the home page, search page, map page, etc.
 -search.html: This HTML file includes a search functionality for finding specific information or facilities related to community toilets.
