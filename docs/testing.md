@@ -16,7 +16,7 @@ Test Runs
 | TNF1.4a      | UAT       | The app should respond to the user within 5 seconds | User clicks "Find on Map". Map appears within 5 seconds. |  pass |
 | TNF1.4b      | UAT       | The app should respond to the user within 5 seconds | User clicks "Find by Type". Table appears within 5 seconds. | pass  |
 | TNF1.5       | UAT       | The app should work on Chrome and Safari browsers | Perform all tests on Chrome / Safari. |  pass  |
-| TNF3.2      | UAT       |  Display the name of the community toilet after clicking the marker  |  pass |
+| TNF3.2      | UAT       |  Display the name of the community toilet after clicking the marker |  The names of each community toilet should be attached |    pass |
 
 
 | Use-Case ID | Requirement ID | Software Module| Test Case  | Status |
