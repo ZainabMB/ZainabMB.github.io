@@ -12,7 +12,6 @@ Test Runs
 | TF1.4      | UAT       | The system should find nearest toilets to user | User clicks "Find on Map" then "find nearest toilets". User grants permission. Table shows nearest toilets. |  pass |
 | TF3.1    | UAT       | Finding community toilets with changing places, family toilets, and baby change. | User clicks on the button for the specific one. User views community toilets with or without the chosen one|  pass |
 | TF2.1   | UAT       | Finding community toilets by wards | User clicks "find by wards". User views community toilets by wards |  pass |
-
 | TNF3.1    | UAT       | Defaults to Bristol City Centre | User clicks "Find nearest toilet". User denies permission. Table should default to Bristol City Centre. |  pass |
 | TNF1.4a      | UAT       | The app should respond to the user within 5 seconds | User clicks "Find on Map". Map appears within 5 seconds. |  pass |
 | TNF1.4b      | UAT       | The app should respond to the user within 5 seconds | User clicks "Find by Type". Table appears within 5 seconds. | pass  |
