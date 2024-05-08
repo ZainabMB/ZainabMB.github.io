@@ -27,11 +27,11 @@ Create a requirements traceability matrix to validate the completeness of the pr
 | UC1         | FR1.2          |  index2.html   |  TF1.2     |      pass  |
 | UC1         | FR1.3         |     map.html       |  TF1.3 |      pass  |
 | UC1         | FR1.4         |  distance.html |  TF1.4     |   pass  |
-| UC1         | FR2.1       |     type.html      |  TF2.1     |  pass   |
-| UC1         | FR3.1   | Baby.html changing.html family.html      |  TF3.1     |  pass      |
-| UC1         | NFR3.1         |    distance            |  TNF3.1   |  pass      |
+| UC2         | FR2.1       |     type.html      |  TF2.1     |  pass   |
+| UC3         | FR3.1   | Baby.html changing.html family.html      |  TF3.1     |  pass      |
+| UC3         | NFR3.1         |    distance            |  TNF3.1   |  pass      |
 | UC1         | NFR1.4a        |       map.html         |  TNF1.4a   | pass       |
-| UC2         | NFR1.4b         |   index2.html    |   TNF1.4b  |    pass    |
+| UC1         | NFR1.4b         |   index2.html    |   TNF1.4b  |    pass    |
 | UC1         | NFR1.5         |    ALL          |  TNF1.5   |     pass   |
-| UC1         | NFR3.2        |    map.html     |  TNF3.2   |  pass      |
+| UC3         | NFR3.2        |    map.html     |  TNF3.2   |  pass      |
 TODO: Add rows for each test, current status is eg. pass/fail
