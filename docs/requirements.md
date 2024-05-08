@@ -13,7 +13,9 @@ Users require a convenient way to find nearby community toilets.
 
 
 ### Actors
-* user
+*Users
+### Functional Requirements 
+<li>FR1.1: The system should get user location from navigator.geolocation</li><li>FR1.2: The system must query the database for Community toilets locations from Open Data Bristol </li><li>FR1.3:The system must add markers for each Community Toilet</li><li>FR2.1: The sytem must query the database for wards with community toilets</li><li>FR3.1: The system must query the database of community toilets with changing places, baby change, and family toilets</li>
 
 ### Use Cases
 
