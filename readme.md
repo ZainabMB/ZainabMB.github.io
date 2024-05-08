@@ -1,6 +1,6 @@
 # JOURNEY LINKS
 
-Community toilets shows users all community toilets in bristol to 
+Community toilets shows users all community toilets in bristol when in necessary conditions.
 
 1. [Planning](docs/planning.md)
 2. [Requirements](docs/requirements.md)
