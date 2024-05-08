@@ -15,23 +15,23 @@ Confirmation box appears, requesting permission. | Pass  |
 | TF2.1   | UAT       | Finding community toilets by wards | User clicks "find by wards". User views community toilets by wards |  pass |
 
 | TNF3.1    | UAT       | Defaults to Bristol City Centre | User clicks "Find nearest toilet". User denies permission. Table should default to Bristol City Centre. |  pass |
-| TNF1.5a      | UAT       | The app should respond to the user within 5 seconds | User clicks "Find on Map". Map appears within 5 seconds. |  pass |
-| TNF1.5b      | UAT       | The app should respond to the user within 5 seconds | User clicks "Find by Type". Table appears within 5 seconds. | pass  |
-| TNF1.6       | UAT       | The app should work on Chrome and Safari browsers | Perform all tests on Chrome / Safari. |  pass  |
+| TNF1.4a      | UAT       | The app should respond to the user within 5 seconds | User clicks "Find on Map". Map appears within 5 seconds. |  pass |
+| TNF1.4b      | UAT       | The app should respond to the user within 5 seconds | User clicks "Find by Type". Table appears within 5 seconds. | pass  |
+| TNF1.5       | UAT       | The app should work on Chrome and Safari browsers | Perform all tests on Chrome / Safari. |  pass  |
 | TNF3.2      | UAT       |  Display the name of the community toilet after clicking the marker  |  pass |
 Create a requirements traceability matrix to validate the completeness of the product.
 
 | Use-Case ID | Requirement ID | Software Module| Test Case  | Status |
 | ----------- | -------------- | -------------- |  --------- | ------ |
 | UC1         | FR1.1          |   map.html     |  TF1.1     |    pass    |
-| UC1         | FR1.2          |  index2.html   |  TF1.3     |      pass  |
-| UC1         | FR1.3         |     map.html       |  TF1.4  |      pass  |
+| UC1         | FR1.2          |  index2.html   |  TF1.2     |      pass  |
+| UC1         | FR1.3         |     map.html       |  TF1.3 |      pass  |
 | UC1         | FR1.4         |  distance.html |  TF1.4     |   pass  |
-| UC1         | FR2.1       |     type.html      |  TF1.4     |  pass   |
-| UC1         | FR3.1   | Baby.html changing.html family.html      |  TF1.4     |  pass      |
-| UC1         | NFR3.1         |    distance            |  TNF1.1    |        |
-| UC1         | NFR1.5         |                |  TNF1.5a   |        |
-| UC2         | NFR1.5         |                |   TNF1.5b  |        |
-| UC1         | NFR1.6         |                |  TNF1.6    |        |
-| UC1         | NFR1.8         |                |  TNF1.8    |        |
+| UC1         | FR2.1       |     type.html      |  TF2.1     |  pass   |
+| UC1         | FR3.1   | Baby.html changing.html family.html      |  TF3.1     |  pass      |
+| UC1         | NFR3.1         |    distance            |  TNF3.1   |  pass      |
+| UC1         | NFR1.4a        |       map.html         |  TNF1.4a   | pass       |
+| UC2         | NFR1.4b         |   index2.html    |   TNF1.4b  |    pass    |
+| UC1         | NFR1.5         |    ALL          |  TNF1.5   |     pass   |
+| UC1         | NFR3.2        |    map.html     |  TNF3.2   |  pass      |
 TODO: Add rows for each test, current status is eg. pass/fail
