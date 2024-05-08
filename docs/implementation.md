@@ -1,14 +1,26 @@
 # Implementation
 
 ## Introduction
-TODO: Describe the system implemented (Describe the dataset. Are there any known issues? Describe any configuration data).
+The community toilets app aims to provide a platform for users to find nearby community toilet facilities within the Bristol area. The app utilizes data obtained from the Bristol Open Data API, which includes information about toilet locations, name of the toilets, toilets with changing places, toilets based on wards, family toilets, toilets with baby change. It involves building a web application using  HTML, CSS, JavaScript.
+### Known Issues
+- The data from the Bristol Open Data API may not be up to date.
+- Some toilet locations may lack facility information.
+### Configuration Data
+
 
 ## Project Structure
-TODO: Provide an outline of the project folder structure and the role of each file within it.
-provide a table listing the number of jslint warnings/reports for each module.
 
+### Folder Structure
+-
+-
+### File Roles
+-
+-
+### JSLint Reports
+-
+-
 ## Software Architecture
-TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
+The software architecture consists of the following major components:
 
 <img width="661" alt="Screenshot 2024-05-09 at 00 39 32" src="https://github.com/ZainabMB/ZainabMB.github.io/assets/148769002/8691ed9e-60b4-4b49-a590-a86420833a5c">
 
