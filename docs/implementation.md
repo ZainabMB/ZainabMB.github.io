@@ -25,11 +25,12 @@ The community toilets app aims to provide a platform for users to find nearby co
 </li><li>family.html: This HTML file contains information or features specific to family-friendly facilities.
 </li><li>distance.html: This file contains features or functionality related to calculating distances or finding nearby facilities.
 </li><li>changing.html: This HTML file contains information or features related to changing places facilities.
-</li><li>Index2.html: This file is an alternate or additional version of the homepage, containing variations or updates to the content.</li><ol>
+</li><li>Index2.html: This file is an alternate or additional version of the homepage, containing variations or updates to the content.</li><li>test.html: for testing the script file</li><ol>
 
 ### JSLint Reports
--
--
+6 tests completed in 17 milliseconds, with 0 failed, 0 skipped, and 0 todo.
+7 assertions of 7 passed, 0 failed.
+
 ## Software Architecture
 The software architecture consists of the following major components:
 
