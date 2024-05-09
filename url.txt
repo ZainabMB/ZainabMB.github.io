@@ -1,2 +1,1 @@
- complete url for use = https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/25/query?where=1%3D1&outFields=TOILET_NAME,ADDRESS,POSTCODE,MALE,FEMALE,UNISEX,CHANGINGPLACE,FAMILYTOILET&outSR=4326&f=json
- NEW ONE I THINK https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/25/query?where=1%3D1&outFields=TOILET_NAME,POSTCODE,FEMALE,MALE,FAMILYTOILET&outSR=4326&f=json
+url for image used: https://www.cresswellservices.co.uk/professional-cleaning-services-in-london/washroom-services/
