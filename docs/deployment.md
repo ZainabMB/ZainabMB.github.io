@@ -66,6 +66,8 @@ If the browser does not support geo-location: use Bristol city centre as the def
 
 Non-functional:
 NFR1: Location is only accessed if the user grants permission (security).
+<img width="1440" alt="Screenshot 2024-05-09 at 11 34 41" src="https://github.com/ZainabMB/ZainabMB.github.io/assets/148768903/760e8111-50d6-4e69-b14a-e67607f3d32d">
+
 <img width="1440" alt="Screenshot 2024-05-09 at 11 34 49" src="https://github.com/ZainabMB/ZainabMB.github.io/assets/148768903/eb856435-1665-4dc9-9d15-183f9838705e">
 
 
