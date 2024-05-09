@@ -22,7 +22,7 @@ This release marks the initial version of the community toilets app. It is built
 <img width="1440" alt="Screenshot 2024-05-09 at 11 26 16" src="https://github.com/ZainabMB/ZainabMB.github.io/assets/148768903/918c88a9-a9cc-46e1-a0c1-004839cb5ae4">
 
 # User guide
-UC1: Finding community toilets by Name
+### UC1: Finding community toilets by Name
 
 Description:
 As a user, you want to search for community toilets by name.
@@ -50,7 +50,7 @@ Entire name has to be entered to get result. Cannot display in alphabetical orde
 
 
 
-UC2: Finding community toilets closest to the user's location
+### UC2: Finding community toilets closest to the user's location
 
 Description:
 As a user, you want to find community toilets closest to your location.
@@ -72,7 +72,7 @@ NFR1: Location is only accessed if the user grants permission (security).
 
 
 
-UC3: Viewing all community toilets on the map
+### UC3: Viewing all community toilets on the map
 
 Description:
 As a user, you want to view all community toilets on your map.
@@ -93,7 +93,7 @@ NFR2: Display the name of the community toilet after clicking the marker (Usabil
 
 
 
-UC4: Finding community toilets with changing places
+### UC4: Finding community toilets with changing places
 
 Description:
 As a user, you want to find community toilets with changing places.
@@ -115,7 +115,7 @@ NFR2: Desired criteria only has two choices 'yes' or 'no' (Efficiency).
 
 
 
-UC5: Filtering community toilets by wards
+### UC5: Filtering community toilets by wards
 
 Description:
 As a user, you want to filter community toilets based on the wards.
@@ -139,7 +139,7 @@ NFR2: All toilets from the specific ward will be displayed (Efficiency).
 
 
 
-UC6: Filtering community toilets by Family Toilets
+### UC6: Filtering community toilets by Family Toilets
 
 Description:
 As a user, you want to find community toilets that have family toilets.
@@ -161,7 +161,7 @@ NFR2: Desired criteria only has two choices 'yes' or 'no' (Efficiency).
 
 
 
-UC7: Filtering community toilets by Baby change
+### UC7: Filtering community toilets by Baby change
 
 Description:
 As a user, you want to find community toilets with a baby change.
