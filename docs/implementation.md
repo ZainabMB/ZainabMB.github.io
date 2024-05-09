@@ -15,9 +15,9 @@ The community toilets app aims to provide a platform for users to find nearby co
 - /docs: Contains all the HTML, CSS, and JavaScript files for the website.
 
 ### File Roles
-</ol><li>Baby.html: This file contains information or features related to baby facilities in the community toilets app.
-</li><li>type.html: This file contains information or features related to the type of toilets available.
-</li><li>.css: This CSS file provides styling for the HTML files in the /docs folder, including the home page, search page, map page, etc.
+</ol><li>Baby.html: This file contains information or features related to baby change facilities in the community toilets app.
+</li><li>type.html: This file contains information or features related to filtering wards with community toilets
+</li><li>style2.css: This CSS file provides styling for the HTML files in the /docs folder, including the home page, search page, map page, etc.
 </li><li>search.html: This HTML file includes a search functionality for finding specific information or facilities related to community toilets.
 </li><li>script.js: This JavaScript file provides interactivity and functionality to the HTML pages, such as handling user input, making API calls, or updating the DOM dynamically.
 </li><li>map.html: This HTML file displays a map interface related to the website's content,showing the locations of toilets.
@@ -25,7 +25,7 @@ The community toilets app aims to provide a platform for users to find nearby co
 </li><li>family.html: This HTML file contains information or features specific to family-friendly facilities.
 </li><li>distance.html: This file contains features or functionality related to calculating distances or finding nearby facilities.
 </li><li>changing.html: This HTML file contains information or features related to changing places facilities.
-</li><ol>Index2.html: This file is an alternate or additional version of the homepage, containing variations or updates to the content.
+</li><li>Index2.html: This file is an alternate or additional version of the homepage, containing variations or updates to the content.</li><ol>
 
 ### JSLint Reports
 -
