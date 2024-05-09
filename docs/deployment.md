@@ -16,7 +16,8 @@ This release marks the initial version of the community toilets app. It is built
 - The data from the Bristol Open Data API may not be up to date.
 - Some toilet locations may lack facility information.
   
-<img width="709" alt="Screenshot 2024-05-08 at 22 29 05" src="https://github.com/ZainabMB/ZainabMB.github.io/assets/148769002/43d51af2-908d-42d5-b9cd-830b8ff23f3b">
+<img width="1440" alt="Screenshot 2024-05-09 at 11 42 18" src="https://github.com/ZainabMB/ZainabMB.github.io/assets/148768903/3891e50a-ee80-4368-b0ae-8ccf5924bc00">
+
 
 
 # User guide
