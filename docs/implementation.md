@@ -14,8 +14,8 @@ The community toilets app aims to provide a platform for users to find nearby co
 - /docs: Contains all the HTML, CSS, and JavaScript files for the website.
 
 ### File Roles
--Baby.html: This file contains information or features related to baby facilities in the community toilets app.
--type.html: This file contains information or features related to the type of toilets available.
+</ol><li>-Baby.html: This file contains information or features related to baby facilities in the community toilets app.
+</li><li>type.html: This file contains information or features related to the type of toilets available.
 -style2.css: This CSS file provides styling for the HTML files in the /docs folder, including the home page, search page, map page, etc.
 -search.html: This HTML file includes a search functionality for finding specific information or facilities related to community toilets.
 -script.js: This JavaScript file provides interactivity and functionality to the HTML pages, such as handling user input, making API calls, or updating the DOM dynamically.
