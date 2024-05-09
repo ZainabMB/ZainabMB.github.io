@@ -39,7 +39,16 @@ The software architecture consists of the following major components:
 -Browser: Renders the HTML, CSS, and JavaScript to the user's browser.
 
 ## Bristol Open Data API
-TODO: Document each query to Bristol Open Data
+Query 1: Get All Toilet Locations
+
+Endpoint: /api/toilets
+Description: Retrieves a list of all toilet locations within the Bristol area.
+Parameters: None
+Query 2: Get Toilet Details
+
+Endpoint: /api/toilets/:name
+Description: Retrieves detailed information about a specific toilet location.
+Parameters: id (Toilet name)
 
 <img width="750" alt="Screenshot 2024-05-09 at 03 27 55" src="https://github.com/ZainabMB/ZainabMB.github.io/assets/148769002/e3dbfb7f-707d-4932-8945-36d5161138b3">
 
