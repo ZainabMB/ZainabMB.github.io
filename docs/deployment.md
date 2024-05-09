@@ -43,7 +43,8 @@ NFR5: The app should work on Chrome and Safari browsers.
 Issues:
 Entire name has to be entered to get result. Cannot display in alphabetical order.
 
-[Insert screenshots here]
+<img width="1470" alt="1" src="https://github.com/ZainabMB/ZainabMB.github.io/assets/148769002/ead88455-bf16-4354-8e31-f568baf55f4b">
+
 
 UC2: Finding community toilets closest to the user's location
 
@@ -62,7 +63,7 @@ If the browser does not support geo-location: use Bristol city centre as the def
 Non-functional:
 NFR1: Location is only accessed if the user grants permission (security).
 
-[Insert screenshots here]
+111111111111
 
 UC3: Viewing all community toilets on the map
 
@@ -80,7 +81,8 @@ Non-functional:
 NFR1: Each marker should be visible (Usability).
 NFR2: Display the name of the community toilet after clicking the marker (Usability).
 
-[Insert screenshots here]
+<img width="1470" alt="3" src="https://github.com/ZainabMB/ZainabMB.github.io/assets/148769002/d8eecc60-e25a-4d6c-a914-3bdbb7f7db93">
+
 
 UC4: Finding community toilets with changing places
 
@@ -100,7 +102,8 @@ Non-functional:
 NFR1: The buttons should be visible and distinguishable (Usability).
 NFR2: Desired criteria only has two choices 'yes' or 'no' (Efficiency).
 
-[Insert screenshots here]
+<img width="1470" alt="4" src="https://github.com/ZainabMB/ZainabMB.github.io/assets/148769002/1d998bdc-5771-4d4f-8d71-5ba647d64588">
+
 
 UC5: Filtering community toilets by wards
 
@@ -122,7 +125,8 @@ Non-functional:
 NFR1: Buttons for different wards should be distinguishable (Usability).
 NFR2: All toilets from the specific ward will be displayed (Efficiency).
 
-[Insert screenshots here]
+<img width="1470" alt="5" src="https://github.com/ZainabMB/ZainabMB.github.io/assets/148769002/c1ec898a-80c2-4bff-bfa2-e30f53398291">
+
 
 UC6: Filtering community toilets by Family Toilets
 
@@ -142,7 +146,8 @@ Non-functional:
 NFR1: The buttons should be easily read and distinguished (Usability).
 NFR2: Desired criteria only has two choices 'yes' or 'no' (Efficiency).
 
-[Insert screenshots here]
+<img width="1470" alt="6" src="https://github.com/ZainabMB/ZainabMB.github.io/assets/148769002/ba4c869d-ae31-43be-99e1-e6412dba8a62">
+
 
 UC7: Filtering community toilets by Baby change
 
@@ -162,7 +167,8 @@ Non-functional:
 NFR1: The buttons should be easily read and distinguished (Usability).
 NFR2: Desired criteria only has two choices 'yes' or 'no' (Efficiency).
 
-[Insert screenshots here]
+<img width="1470" alt="7" src="https://github.com/ZainabMB/ZainabMB.github.io/assets/148769002/e8d536a1-341b-4948-b6db-2a2cd30402bd">
 
-![Insert screenshots here](images/screenshot.png)
-TODO: Repeat as necessary
+
+
+
