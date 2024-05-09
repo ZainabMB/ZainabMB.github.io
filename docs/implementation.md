@@ -41,5 +41,5 @@ The software architecture consists of the following major components:
 ## Bristol Open Data API
 TODO: Document each query to Bristol Open Data
 
-![UML Class diagrams representing JSON query results](images/class1.png)
-TODO: Repeat as necessary
+<img width="750" alt="Screenshot 2024-05-09 at 03 27 55" src="https://github.com/ZainabMB/ZainabMB.github.io/assets/148769002/e3dbfb7f-707d-4932-8945-36d5161138b3">
+
