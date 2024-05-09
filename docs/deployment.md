@@ -21,11 +21,11 @@ This release marks the initial version of the community toilets app. It is built
 
 # User guide
 UC1: Finding community toilets by Name
+
 Description:
 As a user, you want to search for community toilets by name.
 
 Steps:
-
 Click on the search bar.
 Type in the name of the community toilet.
 Select the desired community toilet from the search results.
