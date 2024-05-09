@@ -6,8 +6,7 @@ The community toilets app aims to provide a platform for users to find nearby co
 - The data from the Bristol Open Data API may not be up to date.
 - Some toilet locations may lack facility information.
 ### Configuration Data
--
--
+-The system utilizes configuration files to manage API keys, database connections.
 
 ## Project Structure
 
